@@ -1,0 +1,1 @@
+http://maven.aliyun.com/nexus/content/repositories/central/
