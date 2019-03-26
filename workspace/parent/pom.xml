@@ -13,4 +13,7 @@
 			<version>5.1.1.RELEASE</version>
 		</dependency>
 	</dependencies>
+	<modules>
+		<module>child2</module>
+	</modules>
 </project>
