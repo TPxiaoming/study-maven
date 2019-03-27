@@ -5,14 +5,19 @@
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>5.1.1.RELEASE</version>
-		</dependency>
-	</dependencies>
+	
+	<properties>
+		<spring-webmvc-version>5.1.1.RELEASE</spring-webmvc-version>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>${spring-webmvc-version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<modules>
 		<module>child2</module>
 	</modules>

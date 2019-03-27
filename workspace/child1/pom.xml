@@ -6,4 +6,10 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>child1</artifactId>
+  		<dependencies>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+			</dependency>
+		</dependencies>
 </project>
